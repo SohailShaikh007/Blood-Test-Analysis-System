@@ -38,17 +38,6 @@ pip install -r requirements.txt
 
 ---
 
-### ▶️ Run the Server
-
-```bash
-uvicorn main:app --reload
-```
-
-Access the interactive API documentation at:  
- http://127.0.0.1:8000/docs
-
----
-
 ##  Debugging Instructions
 
 ### 1. Identify the Bug 
