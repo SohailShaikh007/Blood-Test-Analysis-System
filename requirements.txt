@@ -1,0 +1,46 @@
+click==8.1.7
+# Keep crewai at version 0.130.0
+# Other package versions are flexible and can be changed
+# Only change crewai version if there are critical dependency conflicts that cannot be resolved by other means
+crewai==0.130.0
+crewai-tools==0.47.1
+fastapi==0.110.3
+google-ai-generativelanguage==0.6.4
+google-api-core==2.10.0
+google-api-python-client==2.131.0
+google-auth==2.29.0
+google-auth-httplib2==0.2.0
+google-cloud-aiplatform==1.53.0
+google-cloud-bigquery==3.23.1
+google-cloud-core==2.4.1
+google-cloud-resource-manager==1.12.3
+google-cloud-storage==2.16.0
+google-crc32c==1.5.0
+google-generativeai==0.5.4
+google-resumable-media==2.7.0
+googleapis-common-protos==1.63.0
+Jinja2==3.1.4
+jsonschema==4.22.0
+langchain-core==0.1.52
+langsmith==0.1.67
+numpy==1.26.4
+oauthlib==3.2.2
+openai==1.30.5
+# ONNXRuntime removed; installed via CrewAI dependencies
+# Opentelemetry packages updated to match CrewAI requirements
+opentelemetry-api>=1.30.0
+opentelemetry-exporter-otlp-proto-common>=1.30.0
+opentelemetry-exporter-otlp-proto-grpc>=1.30.0
+opentelemetry-exporter-otlp-proto-http>=1.30.0
+opentelemetry-instrumentation>=0.46b0
+opentelemetry-instrumentation-asgi>=0.46b0
+opentelemetry-instrumentation-fastapi>=0.46b0
+opentelemetry-proto>=1.30.0
+opentelemetry-sdk>=1.30.0
+opentelemetry-semantic-conventions>=0.46b0
+opentelemetry-util-http>=0.46b0
+pandas==2.2.2
+pillow==10.3.0
+protobuf==4.25.3
+pydantic>=2.4.2
+pydantic_core==2.8.0
