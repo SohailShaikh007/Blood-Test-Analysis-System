@@ -38,17 +38,6 @@ pip install -r requirements.txt
 
 ---
 
-### ⚙️ Environment Variables
-
-Create a `.env` file in your project root:
-
-```
-OPENAI_API_KEY=your-openai-key
-SERPER_API_KEY=your-serper-key
-```
-
----
-
 ### ▶️ Run the Server
 
 ```bash
